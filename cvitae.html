@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <img src="https://randomuser.me/api/portraits/men/36.jpg" alt="foto de Andrew Russell" width="50" height="50">
+            <h1>Andrew Rusell</h1>
+        </div>
+    
+        <nav>
+        <a href="#inicio">Sobre Mi</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+       </nav>
+       
+    </header>
+    <p class="texto-boton">Cambia el fondo</p>
+     <button onclick="changeColor('green')" class="verde">Verde</button>
+     <button onclick="changeColor('blue')" class="azul">Azul</button>
+     <button onclick="changeColor('red')" class="rojo">Rojo</button>
+     <button onclick="changeColor('white')" class="original">Blanco</button>
+    <div class="contenedor-articulo">
+    <article id="inicio">
+    <h2>SOBRE MI</h2>
+    <p class="texto1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis molestiae distinctio esse quas. Repellat necessitatibus totam maiores accusamus, temporibus id unde soluta incidunt omnis, architecto, dolor adipisci voluptas vero inventore.
+     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, quod maxime molestias iste, doloremque quis porro nam ex eveniet voluptatibus dolores dicta optio, mollitia beatae amet reprehenderit accusamus culpa minus!</p>
+    </article>
+    
+    <article id="proyectos">
+    <h3>PROYECTOS</h3>
+    <p class="texto2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae esse nobis sequi. Id praesentium optio necessitatibus impedit quia? Soluta tempore, quaerat fuga iste esse id repellat consequatur repudiandae ea! lore</p>
+     <div class="contenedor-proyectos">
+       <div class="proyecto1">
+       <p>HTML + CSS</p>
+    </div>
+       <div class="proyecto2">
+       <p>HTML + CSS + JAVASCRIPT</p>
+    </div>
+       <div class="proyecto3">
+       <p>HTML + CSS + JAVASCRIPT</p>
+    </div>
+     </div>
+    </article>
+    
+    <article id="contacto">
+    <h3>CONTACTO</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sapiente deserunt totam ex beatae nobis aut sequi assumenda corrupti excepturi. Dolorum quia voluptatibus provident, laborum cum molestiae doloremque enim sit.</p>
+    </article>
+    
+</div>
+
+    <footer>
+        <div class="contenedor-enlaces">
+       <a href="#"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/whatsapp_icon_138013.png" alt="logo whatsapp" height="30" width="30">+12 3456-7890</a>
+       <a href="#"><img src="https://cdn.icon-icons.com/icons2/652/PNG/512/gmail_icon-icons.com_59877.png" alt="logo gmail" height="30" width="30">andrew.russell@example.com</a>
+       <a href="#"><img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="logo linkedin" height="30" width="30">Andrew Russell</a>
+        </div>
+    </footer>
+
+    <script>
+        function changeColor(color) {
+          document.body.style.backgroundColor = color;
+        }
+      </script>
+</body>
+</html>
